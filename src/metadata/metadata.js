@@ -59,6 +59,7 @@ module.exports = {
                 ,
       project_section : 'Projects and applications',
       projects :[
+          { name : 'HEDGES', ref :'https://github.com/upmem/usecase_hedges', content : 'PIM implementation of HEDGES (https://www.pnas.org/doi/full/10.1073/pnas.2004821117), error-correcting code for DNA storage.' },
           { name : 'genomic compression', content : 'Implementation of a a novel genomique technique of DNA compression, based on bloom filter, in colaboration with INRIA/IRISA.' },
           { name : 'SparseP', ref :'https://github.com/upmem/SparseP/tree/upmem_internal', content : 'Obtimization of original SparseP implementation from ETH Zurich. SparseP is a PIM implementation of Sparse Matrix/Vector multiplication (https://arxiv.org/abs/2201.05072)' },
           { name : 'PIM Embedding', ref : 'https://github.com/upmem/PIM-Embedding-Lookup/tree/multicol' , content : 'PIM implementation of Pytorch EmbeddingBag ' },
