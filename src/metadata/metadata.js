@@ -7,11 +7,11 @@ module.exports = {
     //              <i class="fa-brands fa-wikipedia-w fact-icon"></i>William_Shakespeare
     //            </a>`,
     //'Twitter': `<a href="https://twitter.com/shakespeare"><i class="fa-brands fa-twitter fact-icon"></i>Shakespeare</a>`,
-    'email': '<a href="dgerin@poton.me"><i class="fa fa-envelope fact-icon"></i>dgerin@poton.me</a>',
+    'email': '<a href="dgerin@proton.me"><i class="fa fa-envelope fact-icon"></i>dgerin@poton.me</a>',
     'phone': '<i class="fas fa-phone fact-icon"></i>+33783835501</a>',
     'linkedin': '<a href="https://www.linkedin.com/in/dimitri-gerin-04026960"><i class="fab fa-linkedin fact-icon"></i>Dimitri Gerin</a>',
-    'github pro (UPMEM)': '<a href="https://github.com/dgerinmem"><i class="fab fa-github fact-icon"></i>(UPMEM Pro github) dgerinmem</a>',
-    'github perso (UPMEM)': '<a href="https://github.com/dgerin"><i class="fab fa-github fact-icon"></i>(Personal github) dgerin</a>'
+    'github pro (UPMEM)': '<a href="https://github.com/dgerinmem"><i class="fab fa-github fact-icon"></i>(UPMEM pro github) dgerinmem</a>',
+    'github perso': '<a href="https://github.com/dgerin"><i class="fab fa-github fact-icon"></i>(Personal github) dgerin</a>'
   },
   skills: [
     ['parallel programming', 100],
