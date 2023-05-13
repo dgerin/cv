@@ -14,8 +14,8 @@ module.exports = {
     'github perso (UPMEM)': '<a href="https://github.com/dgerin"><i class="fab fa-github fact-icon"></i>(Personal github) dgerin</a>'
   },
   skills: [
-    ['parrallel programming', 100],
-    ['performances optimization', 90],
+    ['parallel programming', 100],
+    ['performance optimization', 90],
     ['Linux device driver', 60],
     ['Deep Learning', 50],
     ['RTL Design', 80],
@@ -32,8 +32,8 @@ module.exports = {
     ['Linux Kernel', 60],
     ['x86', 60],
     ['PCI express', 60],
-    ['DDR Memory', 100],
-    ['Xilinx FPGA', 100],
+    ['DDR memory', 100],
+    ['Xilinx FPGAs', 100],
   ],
   frameworks: [
     ['PyTorch', 100],
@@ -60,9 +60,9 @@ module.exports = {
       project_section : 'Projects and applications',
       projects :[
           { name : 'HEDGES', ref :'https://github.com/upmem/usecase_hedges', content : 'PIM implementation of HEDGES (https://www.pnas.org/doi/full/10.1073/pnas.2004821117), error-correcting code for DNA storage.' },
-          { name : 'genomic compression', content : 'Implementation of a a novel genomique technique of DNA compression, based on bloom filter, in colaboration with INRIA/IRISA.' },
-          { name : 'SparseP', ref :'https://github.com/upmem/SparseP/tree/upmem_internal', content : 'Obtimization of original SparseP implementation from ETH Zurich. SparseP is a PIM implementation of Sparse Matrix/Vector multiplication (https://arxiv.org/abs/2201.05072)' },
-          { name : 'PIM Embedding', ref : 'https://github.com/upmem/PIM-Embedding-Lookup/tree/multicol' , content : 'PIM implementation of Pytorch EmbeddingBag ' },
+          { name : 'genomic compression', content : 'Implementation of a a novel genomique technique of DNA compression, based on bloom filter, in collaboration with INRIA/IRISA.' },
+          { name : 'SparseP', ref :'https://github.com/upmem/SparseP/tree/upmem_internal', content : 'Optimization of original SparseP implementation from ETH Zurich. SparseP is a PIM implementation of Sparse Matrix/Vector multiplication (https://arxiv.org/abs/2201.05072)' },
+          { name : 'PIM Embedding', ref : 'https://github.com/upmem/PIM-Embedding-Lookup/tree/multicol' , content : 'PIM implementation of Pytorch EmbeddingBag Layer' },
       ],
     },
     {
@@ -74,7 +74,7 @@ module.exports = {
       contents: 'I mainly focussed on the specification and the implementation of the VSORA Deep Learning Inference\
       library, a library that implements various DL Layers on VSORA DSP Architecture.\
       I also ported various Deep Learning models on VSORA DSP Architecture, and developed a Quantization Aware retraining flow to improve\
-      models precision with Low-Precision quantization.\
+      model\'s precision with Low-Precision quantization.\
       One other part of my job was to maintain the release and CI pipeline.'
     },
     {
@@ -83,9 +83,9 @@ module.exports = {
       position: 'FPGA Engineer',
       period: '2017 - 2018',
       skills: ['FPGA', 'Telecom', 'Signal Processing'],
-      contents: `As subcontractor, I participaped to the development and validation of the physical layer of FO3D, a new military waveform developed by Thales.
-       I focussed myself on the design of the FPGA part of the TX and RX chains. For this, I developed
-       different RTL blocks that implements signal processing functions.`,
+      contents: `As a subcontractor, I participated in the development and validation of the physical layer of FO3D, a new military waveform developed by Thales.
+       I focussed myself on the design of the FPGA part of the TX and RX chain. For this, I developed
+       different RTL blocks that implement signal processing functions.`,
       project_section : 'Projects',
       projects :[
           { name : 'FO3D', content : 'FPGA Implementation of the physical layer of the FO3D waveform' },
@@ -97,11 +97,11 @@ module.exports = {
       position: 'FPGA / Embedded System Engineer',
       period: '2014 - 2017',
       skills: ['RTL Design', 'FPGA', 'Telecom','SoC', 'HW/SW Codesign'],
-      contents: `I participated to the development of the FPGA platform. I developed different RTL blocks for
-                 different purposes like telecom signal processing functions, device interfaces and CPU co-processors.`,
+      contents: `I participated it the development of the FPGA platform. I developed different RTL blocks for
+                 different purposes like telecom oriented signal processing functions, device interfaces and CPU co-processors.`,
       project_section : 'Noticable Projects',
       projects :[
-          { name : 'European Project', content : 'In colaboration with Nokia Bell Labs, implementing an OpenAIR LTE If4p5 Interface, into FPGA, with Simpulse DSP IP' },
+          { name : 'European Project', content : 'In collaboration with Nokia Bell Labs, implementing an OpenAIR LTE If4p5 Interface, into FPGA, with Simpulse DSP IP' },
       ],
     },
     {
@@ -118,7 +118,7 @@ module.exports = {
       position: 'Intern',
       period: '2013',
       skills: ['C++'],
-      contents: `Participating to developpment of an interactive motion based traffic simulator.`
+      contents: `Participating in the developpment of an interactive motion based traffic simulator.`
     }
   ],
   education :[
@@ -134,13 +134,13 @@ module.exports = {
       header: 'CNAM',
       location: 'Paris',
       skills: ['Electrical Engineering'],
-      contents: `Technology degree (DUT GEII), Graduated as Valedictorian`
+      contents: `Technology Degree (DUT GEII), Graduated as Valedictorian`
     },
     {
       period: '2005 - 2008',
       header: 'ETPLM',
       location: 'Grenoble',
-      contents: `High school degree (BAC STI GE), with hounours (mention très bien)`
+      contents: `High school degree (BAC STI GE), with honors (mention très bien)`
     },
   ],
    certifications :[
