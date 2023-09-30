@@ -2,7 +2,7 @@ module.exports = {
   name: 'Dimitri Gerin',
   title: 'Software and Application Engineer',
   facts: {
-    'residence': '<a href="https://goo.gl/maps/H94JiPQpQ76JBTpq9"><i class="fa fa-home fact-icon"></i>2B Rue du 11 Novembre 1918, Palaiseau</a>',
+    'residence': '',
     //'Wiki': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
     //              <i class="fa-brands fa-wikipedia-w fact-icon"></i>William_Shakespeare
     //            </a>`,
